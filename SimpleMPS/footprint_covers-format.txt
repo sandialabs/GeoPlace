@@ -1,0 +1,35 @@
+coverage  point coordinates are in “points_for_coverage.txt”  file. 
+placement point coordinates are in “points_for_placement.txt” file.
+32 number of footprint placement points
+0 placement point, placing a footprint here covers these coverage points: 3 4 21     
+1      
+2      
+3      
+4      
+5      
+6      
+7      
+8      
+9       0 1 2 5 7 8
+10      
+11      
+12       3 4 6 10 11 12 15 19
+13      
+14      
+15      
+16       19 24 25
+17       8 9 13 16 17 18 21 22 23 26 27 29 30 32
+18       31 33 35 36 37 38 39
+19      
+20      
+21       32
+22      
+23      
+24      
+25      
+26      
+27      
+28      
+29      
+30      
+31      

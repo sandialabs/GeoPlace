@@ -1,0 +1,12 @@
+number of footprints in the solution
+toe index into placement_points where the footprint lies   footprint_filename
+toe index into placement_points where the footprint lies   footprint_filename
+. . .
+toe index into placement_points where the footprint lies   footprint_filename
+
+e.g.
+
+3
+1 footA.txt
+23 footA.txt
+13 footB.txt

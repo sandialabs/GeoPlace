@@ -1,0 +1,13 @@
+footprint type name
+footprint data
+
+e.g.
+
+circle
+0.25 %radius
+
+e.g.
+
+rectangle
+x y %extents
+

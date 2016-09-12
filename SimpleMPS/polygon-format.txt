@@ -1,0 +1,19 @@
+# a polygon may be used to define the domain, the region of interest
+num_vertices
+vertex_0_x vertex_0_y
+vertex_1_x vertex_1_y
+vertex_2_x vertex_2_y
+...
+num_edges (in loop 1)
+vertex_0_start vertex_0_end
+vertex_1_start vertex_1_end
+vertex_2_start vertex_2_end
+...
+num_edges (in loop 2)
+vertex_0_start vertex_0_end
+...
+# domain interior is to the right side of the edge
+
+
+# Tool for drawing
+# http://polarski.cz/graph_paper/

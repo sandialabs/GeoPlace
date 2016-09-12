@@ -1,0 +1,22 @@
+RiverValley
+
+Here are a series of toy images of the Mississippi river valley system, with varying resolutions and features. 
+
+river-roi.xcf is a gimp image file, suitable for future editing.
+rivervalley.bmp is an overview picture for human consumption.
+The other pictues are designed for machine consumption, for subfootprint placement. Darker is meant to indicate higher-priority. 
+
+Files are bitmaps, 16 bits: 5r 6g 5b
+
+The resolutions vary by factors of 2x2 from 640x480 down to 5 x 4
+The file suffix is the first resolution number, the number of horizontal pixels, the number of columns. Each file was made by scaling the next-larger file, not the first largest file.
+
+The 4 features are:
+cities, darkest
+river junctions, darkest
+skinny rivers, dark
+fattened area around rivers, light
+
+The map in rivervalley.bmp came from wikipedia.
+The other figures were tracings of that, done by Scott Mitchell, using Gimp.
+

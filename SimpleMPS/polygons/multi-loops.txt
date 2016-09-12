@@ -1,0 +1,11 @@
+If there are multiple loops to the domain, they must be arranged as
+an outer loop followed by all the holes of the loop, if any, etc
+There must be at least one outer loop
+
+outer
+  inner
+  inner
+  inner
+outer
+outer
+  inner
