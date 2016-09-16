@@ -1,0 +1,117 @@
+## /Applications/Cubit-14.1/Cubit.app/Contents/MacOS/Cubitx
+## Cubit Version 14.1
+## Cubit Build 393673
+## Revised 2014-08-11 09:13:47 -0600 (Mon, 11 Aug 2014)
+## Running 09/13/2016 11:26:59 AM
+## Command Options:
+## -warning = On
+## -information = On
+sphere rad 10
+brick width 1
+body 1 move 0 0 -15
+body 1 rotate 20 about x
+body 1 rotate -20 about x
+brick width 2
+list body
+list body 1
+list body 1 geometry
+body 3 move 0 0 4
+body 3 move 0 0 -4
+body 3 move 0 0 -4
+body 3 move 0 0 -2
+body 3 move 0 0 -0.1
+body 3 move 0 0 -0.2
+body 3 move 0 0 -3
+body 3 move 0 0 -5
+list body 3 geometry
+list body 1 geometry
+body 1 move 0 0 15
+body 3 move 0 0 15
+body 2 move 0 0 15
+delete body 3
+brick width 3
+create curve vertex 8 19
+create curve vertex 5 18
+create curve vertex 6 17
+create curve vertex 7 20
+list vertex in curve 38
+create surface curve 37 26 38 8
+create surface curve 27 37 7 40
+create surface curve 28 40 6 39
+create surface curve 25 39 5 38
+list surface
+create surface from surface 14
+create surface from surface 3
+create surface from surface 20
+create surface from surface 21
+create surface from surface 22
+create surface from surface 23
+list surface
+create body surface 24 to 29
+list body
+body 9 copy
+body 9 copy
+body 9 copy
+list body
+imprint body 1 with body 17
+body 1 move 0 0 4
+body 1 move 0 0 -4
+body 1 move 0 0 3
+body 1 move 0 0 -3
+body 1 move 0 0 -3
+body 1 move 0 0 -4
+imprint body 1 with body 17
+body 1 move 3 0 0
+imprint body 1 with body 17
+body 1 move 3 0 0
+body 1 move 1 0 3
+body 1 move -0.5 0 0
+imprint body 1 with body 17
+list body 1
+list body 1 geometry
+body 1 move 0 1 0
+body 1 move 0 1 0
+body 1 move 0 1 0
+body 1 move 0 1 0
+body 1 move 0 0 1
+body 1 move 0 0 1
+body 1 move 0 0 1
+body 1 move 0 0 1
+imprint body 1 with body 17
+list body 1
+list body 1 geometry
+body 1 move -6.5 -4 0
+body 1 move 0 5 0
+body 1 move 0 6 0
+body 1 move 0 -5 0
+body 1 move 0 -2 0
+body 1 move 0 4 0
+imprint body 1 with 17
+body 1 move -3 0 0
+body 1 move 6 0 0
+body 1 move 0 2 0
+body 1 move 0 -42 0
+body 1 move 0 42 0
+body 1 move 0 -4 0
+body 1 move 0 1 0
+imprint body 1 with 17
+list body 1
+list body 1 geometry
+body 1 move -3 -7 0
+list vertex 159
+body 1 move 1.981893 5.981893 -7.764603
+list surface 121 geometry
+body 1 move 1.132151 1.252398 1.753832
+list surface 121 geometry
+rotate body 1 about -0.60668 0 -0.314307 angle 43.09
+list vertex in surface 121
+rotate body 1 about -0.60668 0 -0.314307 angle -43.09
+rotate body 1 about -0.60668 0 -0.314307 angle -43.09
+list surface 121 geometry
+list vertex in surface 121
+list vertex 160 159 156 155 geometry
+curve in surface 121 interval 5
+mesh curve in surface 121
+list node 12 18 20 21 17 28 29 30 27 36 32 37 38 39 1 5 2 11 13 14 15 16 geometry
+list node 12 18 20 21 17 28 29 30 27 36 32 37 38 39 1 5 2 11 13 14 15 16
+group "mynode" equals node 12 18 20 21 17 28 29 30 27 36 32 37 38 39 1 5 2 11 13 14 15 16

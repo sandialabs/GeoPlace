@@ -1,4 +1,12 @@
 -- quick start
+If pyomo, gurobi or cplex, etc., is all in place, you may
+
+% make all sample coverage
+% ./runfootprint.sh
+You should eventually see an image pop up.
+Additional output will be in the run directory
+
+-- runfootprint.sh does the following
 
 ./make-all
 cd run
@@ -58,8 +66,7 @@ plot:
 
 see the *-format.txt files for descriptions of the contents and layout of these files
 
-sampling, current limitations:
-epsilon (sample point spacing) is 0.04
+epsilon (sample point spacing) is specified in the C++ file main-all.cpp
 delta (coverage point spacing) is 0.04
 footprint radius is assumed to be 0.25
 
