@@ -1,3 +1,8 @@
+This software project makes use of and extends the Simple MPS algorithm developed by Ebeida, et al. and reported here: http://dl.acm.org/citation.cfm?id=2322144.
+
+Some results of applying GeoPlace software to place multiple different footprint shapes to a variety of different coverage regions are reported here: ...
+
+
 #Format file for subfootprint problem definition
 #Line 1: row dimension (m), column dimension (n)
 #Line 2: Maximum potential priority
